@@ -15,7 +15,7 @@ program demo {
 	keyboard.down().onPressDo ({player.moveteAbajo()})	
 	keyboard.left().onPressDo ({player.moveteIzquierda()})	
 	keyboard.right().onPressDo ({player.moveteDerecha()})
-	keyboard.m().onPressDo({ 
+	keyboard.t().onPressDo({ 
 		game.say(player, "Maiz Plantado: " +  player.cantidadDeMaiz())
 	}
 	)	
